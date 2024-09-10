@@ -1,0 +1,59 @@
+*{
+    margin :0;
+    padding :0;
+  }
+  html {
+    height: 100%;
+    width: 100%;
+    background-color: #9999e5;
+  }
+  h1{
+    text-align: center;
+    background-color: #020231;
+    color: white ;
+    line-height: 4rem;
+   
+  }
+  .choices{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+  }
+  
+  .button{
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    border: 2px solid grey;
+    transition-duration: 0.4s;
+    width : 200px;
+  }
+    .button:hover {
+      background-color: grey;
+      color: white;
+      cursor: pointer;
+      
+    }
+  .button:active{
+    background-color: #293856;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    
+  }
+  .score-board{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    gap : 5rem;
+    padding: 50px;
+  }
+  #msg{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
